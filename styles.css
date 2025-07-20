@@ -93,3 +93,37 @@ button:hover{
 button:active{
     transform: scale(0.9);
 }
+
+@media (max-width: 480px) {
+   main {
+       flex-direction: column;
+   }
+
+   .sessao-maior, .sessao-menor {
+       width: 100%;
+   }
+
+   .sessao-maior{
+    padding: 20px 20px 10px 20px;
+    
+   }
+
+   .sessao-menor{
+    padding: 10px;
+   }
+
+   h1{
+    font-size: 27px;
+   }
+
+   h2{
+    font-size: 20px;
+    margin-top: 0;
+   }
+
+    button, input{
+     padding: 5px 10px;
+     font-size: 12px;
+    }
+  
+}
