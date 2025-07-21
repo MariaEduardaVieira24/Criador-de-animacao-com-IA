@@ -1,4 +1,4 @@
-let webhook = "https://mariaeduardavieira.app.n8n.cloud/webhook/animacao-css";
+let webhook = "http://localhost:5678/webhook/animacao-css";
 
 async function CliqueiNoBotao() {
     let textoInput = document.querySelector('.input-animacao').value;
